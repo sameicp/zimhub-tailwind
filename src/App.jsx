@@ -9,7 +9,7 @@ export default function App() {
         <Navbar />
         <main className="flex-grow">
         </main>
-        <p className="font-sans text-blue-500 text-2xl">footer section</p>
+        <Footer />
       </body>
     </div>
   )
