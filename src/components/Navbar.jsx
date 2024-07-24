@@ -3,7 +3,7 @@ function Navbar() {
         <nav className="h-20 bg-gray-100">
             <div className="container mx-auto flex items-center justify-between h-full">
                 <div className="flex space-x-3">
-                    <img src="" alt="Car Logo" width="20%" />
+                    {/* <img src="" alt="Car Logo" width="20%" /> */}
                     <a href="/" className="inline-block py-4 md:py-0 mt-2">
                         <span className="p-1 text-2xl leading-none text-gray-900 font-mono  text-clip">Logo</span>
                     </a>

@@ -8,6 +8,7 @@ export default function App() {
       <body className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
+          <p>The home part of the page</p>
         </main>
         <Footer />
       </body>
