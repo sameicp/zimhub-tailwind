@@ -1,10 +1,10 @@
 
 function Home() {
   return (
-    <main className="max-w-6xl mx-auto">
+    <main className="max-w-screen-xl mx-auto">
         <section id="hero" className="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height">
             <article className="sm:w-1/2">
-                <h2 className="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white">
+                <h2 className="max-w-md text-4xl font-bold text-center sm:max-w-lg sm:text-5xl sm:text-left text-slate-900 dark:text-white">
                     Unleashing Potential, Empowering Innovations on the <span className="text-indigo-700 dark:text-indigo-300">Internet Computer Protocol</span>...
                 </h2>
                 <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
@@ -14,18 +14,18 @@ function Home() {
                     Learn more
                 </a>
             </article>
-            <img className="w-1/2" src="./assets/imgs/team/1.jpg" alt="rocket-dab" />
+            <img className="sm:w-1/2" src="./assets/imgs/team/1.jpg" alt="rocket-dab" />
         </section>
 
         <hr className="mx-auto bg-black dark:bg-white w-1/2" />
 
         <section id="about" className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height">
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-                About Us
+                About Us ZimHub
             </h2>
             <figure className="my-12">
                 <blockquote className="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
-                    <p className="text-2xl sm:text-left mt-2 text-white dark:text-slate-400 2">
+                    <p className="text-2xl text-center mt-2 text-white dark:text-slate-400 2">
                         Welcome to Mzanzi Web3! We take pride in South Africa&apos;s burgeoning role as a pivotal contributor to the Internet Computer blockchain within the African continent.
                         In the ever-evolving blockchain realm, new organizations and initiatives consistently make their mark. 
                         Standing at the vanguard of this digital revolution, Mzanzi Web3 (MW3) holds a central position in the region.
@@ -38,11 +38,11 @@ function Home() {
             </figure>
 
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-                About <span className="text-indigo-700 dark:text-indigo-300">Internet Computer Protocol</span>(ICP)
+                The <span className="text-indigo-700 dark:text-indigo-300">Internet Computer Protocol</span>
             </h2>
-            <figure className="my-12">
+            <figure className="my-12 flex flex-col-reverse sm:flex-row">
                 <blockquote className="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
-                    <p className="text-2xl sm:text-left mt-2 text-white dark:text-slate-400 2">
+                    <p className="text-2xl text-center sm:text-left mt-2 text-white dark:text-slate-400 2">
                         The Internet Computer Protocol (ICP) heralds a groundbreaking series of protocols that catalyze decentralized synergy between data centers across the globe. 
                         Its audacious mission sets its sights on superseding conventional cloud providers, cultivating an equitable and fortified global computational infrastructure. 
                         The ICP token is the engine of this avant-garde movement, underpinning governance, rewarding community contributors, and enabling smooth transactions. 
@@ -53,6 +53,7 @@ function Home() {
                         Step into the next epoch of decentralized dynamism with the unparalleled prowess of ICP.
                     </p>
                 </blockquote>
+                <img className="sm:w-1/2 mb-6" src="./assets/imgs/testimonial/1/1.png" alt="rocket-dab" />
             </figure>
 
             <button>Learn more About ICP</button>
@@ -100,17 +101,11 @@ function Home() {
 
         <hr className="mx-auto bg-black dark:bg-white w-1/2" />
 
-        <section id="contact" className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height">
+        <section id="blog" className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height">
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-                Contact Us
+                Recent Blogs
             </h2>
-            <form action="" className="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4">
-                <label htmlFor="subject">Subject</label>
-                <input type="text" id="subject" name="subject" required minLength="4" maxLength="100" placeholder="Your subject" className="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-800 dark:border-none" />
-                <label htmlFor="message">Message</label>
-                <textarea name="mesage" id="message" cols="30" rows="10" placeholder="Your Message" required className="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-800 dark:border-none"></textarea>
-                <button className="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">Submit</button>
-            </form>
+            
         </section>
     </main>
   )

@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header className="bg-teal-700 text-white sticky top-0 z-10">
-        <section className="max-w-6xl mx-auto p-8 flex justify-between items-center">
+        <section className="max-w-screen-2xl mx-auto p-8 flex justify-between items-center">
             <h1 className="text-3xl font-medium">
                 <a href="#hero">ZimHub</a>
             </h1>
