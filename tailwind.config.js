@@ -15,6 +15,8 @@ export default {
         'bluey': '#3433fc',
         'dark': '#1a0936',
         'blu': '#b25ffb',
+        'goldy': '#f5b0aa',
+        'blu2': '#3c127a'
       }
     },
   },
