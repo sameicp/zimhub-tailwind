@@ -7,11 +7,17 @@ function Home() {
             style={{ backgroundImage: "url('/bg2.jpg')" }}
         >
             <Navbar />
-            <div className="flex">
+            <div className="flex space-x-10">
                 <div>
+                    <h1 className="w-7/12 text-7xl font-semibold">Welcome To Zim ICP Innovation Hub</h1>
+                    <p className="font-bold mt-5">Let us build cool sultions that live on the icp blockchain and solve people s problems</p>
+                    <div className="flex space-x-10 mt-5">
+                        <button>Our Services</button>
+                        <button>Call Us</button>
+                    </div>
                 </div>
                 <div>
-
+                    <img src="url('/bg.jpg')" alt="No Img" />
                 </div>
             </div>
         </div>
