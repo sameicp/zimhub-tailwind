@@ -29,7 +29,7 @@ function Home() {
                     </div>
 
                 </div>
-                <img src="/bg.jpg" className="w-6/12 mt-16 rounded-full" alt="No Image" />
+                <img src="/p2.jpg" className="w-6/12 mt-16 rounded-full" alt="No Image" />
 
             </div>
         </div>
