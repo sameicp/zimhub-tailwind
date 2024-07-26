@@ -1,28 +1,19 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import Home from "./pages/Home";
-import AppLayout from "./pages/AppLayout";
-import Contact from "./pages/Contact";
-import Error from "./pages/Error";
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
 
-const router = createBrowserRouter([
-  {
-    element: <AppLayout />,
-    errorElement: <Error />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />
-      },
-    ]
-  }
-])
 
-function App() {
-  return <RouterProvider router={router} />
-}
+export default function App() {
+  return (
+    <div>
+      <body className="flex flex-col min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+        <Navbar />
+        <main className="flex-grow">
+          <Home />
+        </main>
+        <Footer />
+      </body>
+    </div>
+  )
 
 export default App

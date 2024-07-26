@@ -22,6 +22,5 @@ function Footer() {
         </section>
     </footer>
   )
-}
 
 export default Footer
