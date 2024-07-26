@@ -7,8 +7,12 @@ export default {
   theme: {
     extend: {
       screens: {
-        'widescreen': {'raw': '(min-aspect-ratio: 3/2)'},
-        'tallscreen': {'raw': '(min-aspect-ratio: 1/2)'},
+        'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
+        'tallscreen': { 'raw': '(min-aspect-ratio: 1/2)' },
+      },
+      colors: {
+        'blacky': '#250b60',
+        'bluey': '#3433fc',
       }
     },
   },

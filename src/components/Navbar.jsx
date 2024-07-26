@@ -1,39 +1,41 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
     return (
-        <nav className="h-20 bg-gray-100">
-            <div className="container mx-auto flex items-center justify-between h-full">
+        <nav className="h-20 bg-gray-100 shadow-md">
+            <div className="container mx-auto flex items-center justify-between h-full px-4">
                 <div className="flex space-x-3">
-                    {/* <img src="" alt="Car Logo" width="20%" /> */}
                     <a href="/" className="inline-block py-4 md:py-0 mt-2">
-                        <span className="p-1 text-2xl leading-none text-gray-900 font-mono text-clip">Logo</span>
+                        <span className="p-1 text-2xl leading-none text-blue-900 font-mono">Logo</span>
                     </a>
                 </div>
 
                 <div className="flex space-x-10 font-mono text-black">
                     <a href="/" className="hover:font-bold hover:text-gray-900 transition">Home</a>
+                    <a href="/about" className="hover:font-bold hover:text-gray-900 transition">About Us</a>
+                    <a href="/projects" className="hover:font-bold hover:text-gray-900 transition">Projects</a>
+                    <a href="/team" className="hover:font-bold hover:text-gray-900 transition">Team</a>
                 </div>
 
-                <div className="flex space-x-5">
-                    <a href="/">
-                        <FontAwesomeIcon icon={faTwitter} className="text-gray-500 hover:text-gray-700 text-lg hover:text-xl transition" />
+                <div className="flex space-x-5 text-blue-900">
+                    <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faTwitter} className="hover:text-gray-700 text-lg transition" />
                     </a>
-                    <a href="/">
-                        <FontAwesomeIcon icon={faFacebook} className="text-gray-500 hover:text-gray-700 text-lg hover:text-xl transition" />
+                    <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faFacebook} className="hover:text-gray-700 text-lg transition" />
                     </a>
-                    <a href="/">
-                        <FontAwesomeIcon icon={faGlobe} className="text-gray-500 hover:text-gray-700 text-lg hover:text-xl transition" />
+                    <a href="https://example.com" aria-label="Website" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faGlobe} className="hover:text-gray-700 text-lg transition" />
                     </a>
-                    <a href="/">
-                        <FontAwesomeIcon icon={faInstagram} className="text-gray-500 hover:text-gray-700 text-lg hover:text-xl transition" />
+                    <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faInstagram} className="hover:text-gray-700 text-lg transition" />
                     </a>
                 </div>
             </div>
         </nav>
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;
