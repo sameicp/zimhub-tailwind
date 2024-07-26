@@ -18,7 +18,7 @@ function Home() {
                         and solve people problems
                     </p>
                     <div className="flex space-x-10 mt-5">
-                        <button className="bg-blacky text-white px-5 py-2 rounded-2xl flex items-center space-x-2">
+                        <button className="bg-gradient-to-r from-blacky to-blu2 text-white px-5 py-2 rounded-2xl flex items-center space-x-2">
                             <FontAwesomeIcon icon={faConciergeBell} />
                             <span>Our Services</span>
                         </button>
