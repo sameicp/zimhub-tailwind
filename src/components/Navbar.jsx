@@ -9,23 +9,16 @@ function Navbar() {
                     </a>
                 </div>
 
-                <div className="flex space-x-10 font-mono">
+                <div className="flex space-x-10 font-mono text-black">
 
                     <a href="/" className="hover:font-bold hover:text-gray-900 transition">Home</a>
 
                 </div>
 
                 <div className="flex space-x-5">
-                    <div className="px-4">
-                        <a href="/">
-                            <i className="text-gray-500 hover:text-gray-700 fas fa-shopping-cart text-3xl hover:text-xl transition"></i>
-                        </a>
-                        <div className="rounded-full bg-blue-600 text-white text-center text-xs">
-                            1
-                        </div>
-                    </div>
+
                     <a href="/">
-                        <i className="text-gray-500 hover:text-gray-700 fa-brands fa-twitter text-lg hover:text-xl transition"></i>
+                        <i className="text-black hover:text-gray-700 fa-brands fa-twitter text-lg hover:text-xl transition"></i>
                     </a>
                     <a href="/">
                         <i className="text-gray-500 hover:text-gray-700 fa-brands fa-facebook text-lg hover:text-xl transition"></i>
