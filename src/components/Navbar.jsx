@@ -15,7 +15,7 @@ function Navbar() {
                 <div className="flex space-x-10 font-mono">
                     <a href="/" className="hover:font-bold hover:text-gray-900 transition">Home</a>
                     <a href="/about" className="hover:font-bold hover:text-gray-900 transition">About Us</a>
-                    <a href="/projects" className="hover:font-bold hover:text-gray-900 transition">Projects</a>
+                    <a href="/projects" className="hover:font-bold hover:text-gray-900 transition">Services</a>
                     <a href="/team" className="hover:font-bold hover:text-gray-900 transition">Team</a>
                 </div>
 
