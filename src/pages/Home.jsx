@@ -17,7 +17,7 @@ function Home() {
                     </div>
                 </div>
                 <div>
-                    <img src="url('/bg.jpg')" alt="No Img" />
+                    <img src="/bg.jpg" alt="No Img" />
                 </div>
             </div>
         </div>
