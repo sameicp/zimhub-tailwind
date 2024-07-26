@@ -14,7 +14,7 @@ function Home() {
                 <div className="flex justify-between">
                     <div className="w-11/12">
                         <h1 className="text-7xl mt-28 font-semibold">Dummy H1 Text For The Home Page Here.</h1>
-                        <p className="font-bold mt-5">
+                        <p className="font-bold mt-5 text-2xl inline-block align-middle ml-5">
                             Let us build cool solutions that live on the icp blockchain and solve people problems
                         </p>
                         <div className="flex space-x-10 mt-5">
