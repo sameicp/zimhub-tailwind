@@ -3,6 +3,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Team from "./components/Team";
+import About from "./pages/About";
+import Services from "./components/Service";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <main className="flex-grow">
         <Home />
       </main>
+      <About />
       <Team />
+      <Services />
       <Contact />
       <Footer />
     </div>
