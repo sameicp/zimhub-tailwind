@@ -15,4 +15,5 @@ export default function App() {
       </body>
     </div>
   )
-}
+
+export default App
