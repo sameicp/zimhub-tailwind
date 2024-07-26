@@ -1,19 +1,16 @@
-import Footer from "./components/Footer"
-import Navbar from "./components/Navbar"
-import Home from "./pages/Home"
 
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
-      <body className="flex flex-col min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-        <Navbar />
-        <main className="flex-grow">
-          <Home />
-        </main>
-        <Footer />
-      </body>
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow">
+        <Home />
+      </main>
+      <Footer />
     </div>
-  )
+  );
 }
-export default App
+
+export default App;
