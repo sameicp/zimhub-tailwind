@@ -4,22 +4,22 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
     return (
-        <nav className="h-20 bg-gray-100 shadow-md">
-            <div className="container mx-auto flex items-center justify-between h-full px-4">
+        <nav className="h-20">
+            <div className="container mx-auto flex items-center justify-between h-full">
                 <div className="flex space-x-3">
                     <a href="/" className="inline-block py-4 md:py-0 mt-2">
-                        <span className="p-1 text-2xl leading-none text-blue-900 font-mono">Logo</span>
+                        <span className="p-1 text-2xl leading-none font-mono">Logo</span>
                     </a>
                 </div>
 
-                <div className="flex space-x-10 font-mono text-black">
+                <div className="flex space-x-10 font-mono">
                     <a href="/" className="hover:font-bold hover:text-gray-900 transition">Home</a>
                     <a href="/about" className="hover:font-bold hover:text-gray-900 transition">About Us</a>
                     <a href="/projects" className="hover:font-bold hover:text-gray-900 transition">Projects</a>
                     <a href="/team" className="hover:font-bold hover:text-gray-900 transition">Team</a>
                 </div>
 
-                <div className="flex space-x-5 text-blue-900">
+                <div className="flex space-x-5">
                     <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faTwitter} className="hover:text-gray-700 text-lg transition" />
                     </a>

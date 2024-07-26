@@ -13,6 +13,8 @@ export default {
       colors: {
         'blacky': '#250b60',
         'bluey': '#3433fc',
+        'dark': '#1a0936',
+        'blu': '#b25ffb',
       }
     },
   },
