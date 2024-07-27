@@ -4,15 +4,15 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
     return (
-        <nav className="h-20">
+        <nav className="h-20 bg-opacity-10">
             <div className="container mx-auto flex items-center justify-between h-full">
                 <div className="flex space-x-3">
                     <a href="/" className="inline-block py-4 md:py-0 mt-2">
-                        <span className="p-1 text-2xl leading-none font-mono">Logo</span>
+                        <span className="p-1 text-2xl leading-none font-mono md:text-5xl">ZimHub</span>
                     </a>
                 </div>
 
-                <div className="flex space-x-10 font-mono">
+                <div className="flex space-x-10 font-mono md:text-3xl">
                     <a href="/" className="hover:font-bold hover:text-gray-900 transition">Home</a>
                     <a href="/about" className="hover:font-bold hover:text-gray-900 transition">About Us</a>
                     <a href="/projects" className="hover:font-bold hover:text-gray-900 transition">Services</a>
