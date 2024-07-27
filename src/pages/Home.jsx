@@ -10,9 +10,9 @@ function Home() {
                 style={{ backgroundImage: "url('/bg2.jpg')" }}
             >
                 <Navbar />
-                <div className="flex justify-between">
+                <div className="container flex justify-between mx-auto items-center">
                     <div className="w-11/12">
-                        <h1 className="text-7xl mt-28 font-semibold">Dummy H1 Text For The Home Page Here.</h1>
+                        <h1 className="text-7xl mt-28 font-semibold">Unleashing Potential, Empowering Innovations on the Internet Computer Protocol.</h1>
                         <p className="font-bold mt-5 text-2xl inline-block align-middle ml-5">
                             Let us build cool solutions that live on the icp blockchain and solve people problems
                         </p>
@@ -27,7 +27,7 @@ function Home() {
                             </button>
                         </div>
                     </div>
-                    <img src="/p2.jpg" className="w-6/12 mt-16 rounded-full" alt="No Image" />
+                    <img src="./assets/group-photo.jpg" className="w-6/12 mt-16 rounded-full" alt="No Image" />
                 </div>
             </div>
         </div>
